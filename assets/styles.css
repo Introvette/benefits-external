@@ -45,8 +45,7 @@ body {
 
 .home-documents {
   display: flex;
-  flex-direction: row;
-  margin-left: 515px;
+  justify-content: center;
 }
 
 .home-documents img {
