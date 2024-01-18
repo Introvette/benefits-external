@@ -37,13 +37,13 @@ body {
 }
 
 .image-container img {
-  margin: 5px;
+  display: block;
+  margin: 0 auto;
 }
 
-.image-text {
-  font-size: 15px;
-  margin: 0;
-  font-weight: bolder;
+.image-container .image-text {
+  display: block;
+  margin: 5px 0;
 }
 
 .home-documents {
@@ -54,4 +54,11 @@ body {
 
 .home-documents img {
   padding: 15px;
+}
+
+/* pages */
+
+img {
+  float: right;
+  margin: 10px;
 }
